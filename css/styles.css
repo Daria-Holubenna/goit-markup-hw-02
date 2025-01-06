@@ -34,7 +34,7 @@ a{
 .contact{
     font-style: normal;
 }
-.contact a{
+.contact .contact-mail-phone{
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -46,8 +46,8 @@ a{
 .nav-studio:focus{
     color: #404bbf;
 }
-.contact a:hover,
-.contact a:focus{
+.contact .contact-mail-phone:hover,
+.contact .contact-mail-phone:focus{
     color: #404bbf;
 }
 .main-theme{
@@ -91,7 +91,8 @@ a{
 .section-about-team{
     background-color: #f4f4fd;
 }
-.section-about-team .section-name{
+/* .section-about-team  */
+.section-name{
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -100,7 +101,7 @@ a{
     text-transform: capitalize;
     color: #2e2f42;
 }
-.team-card li{
+.section-about-team .team-list-item{
     background-color: #fff;
 }
 .team-card .team-name-title{
