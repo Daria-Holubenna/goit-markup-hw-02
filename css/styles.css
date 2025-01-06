@@ -24,26 +24,27 @@ a{
 .logo-studio{
     color: #2e2f42;
 }
-.nav-link {
+.nav-studio{
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
+    letter-spacing: 0.02em;
     color: #2e2f42;
+}
+.contact{
+    font-style: normal;
 }
 .contact a{
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+    letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
 }
 
-.nav-link a:hover{
+.nav-studio:hover,
+.nav-studio:focus{
     color: #404bbf;
-}
-.nav-link .nav-studio:focus{
-    text-decoration: underline;
-        color: #404bbf;
 }
 .contact a:hover,
 .contact a:focus{
@@ -56,6 +57,8 @@ a{
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: #fff;
 }
 .main-submit{
@@ -67,70 +70,81 @@ a{
     color: #fff;
     cursor: pointer;
 }
-.main-submit:hover{
+.main-submit:hover,
+.main-submit:focus{
     background-color: #404bbf;
 }
-.main-inform h3{
+.section-about-company .name-skill{
+    font-weight: 500;
     font-size: 20px;
     line-height: 120%;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.main-inform p{
+.section-about-company .about-skill{
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+    letter-spacing: 0.02em;
     color: #434455;
 }
-.main-team{
+.section-about-team{
     background-color: #f4f4fd;
 }
-.main-team h2{
+.section-about-team .section-name{
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 .team-card li{
     background-color: #fff;
 }
-.team-card h3{
+.team-card .team-name-title{
+    font-weight: 500;
     font-size: 20px;
     line-height: 120%;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.team-card p{
+.team-card .team-job{
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+    letter-spacing: 0.02em;
     color: #434455;
 }
-.portfolio h2{
+.section-portfolio h2{
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
     color: #2e2f42;
 }
-.portfolio-card h3{
+.portfolio-card .portfolio-card-name{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.portfolio-card p{
-    font-weight: 400;
+.portfolio-card .portfolio-card-descript{
     font-size: 16px;
     line-height: 150%;
+    letter-spacing: 0.02em;
     color: #434455;
 }
-footer{
+.footer-copyright{
     background-color: #2e2f42;;
 }
 .logo-footer{
     color: #f4f4fd;
 }
-footer p{
-    font-weight: 400;
+.footer-copyright .footer-descr{
     font-size: 16px;
     line-height: 150%;
     color: #f4f4fd;
+    letter-spacing: 0.02em;
 }
